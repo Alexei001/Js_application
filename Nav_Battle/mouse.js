@@ -1,12 +1,14 @@
 
-function getMouse(element){
-    const mouse={
-        x:0,
-        y:0
+function getMouse(element) {
+    const mouse = {
+        x: 0,
+        y: 0
     }
 
-    element.addEventListener('mousemove', function(event){
-        console.log(event);
+    element.addEventListener('mousemove', function (event) {
+        const rect = element.getBoundingClientRect();
+        mouse.x = event.clientX - rect.left;
+        mouse.y = event.clientY - rect.top;
     })
 
     return mouse;
