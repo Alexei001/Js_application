@@ -7,3 +7,4 @@ button.addEventListener('click', () => {
         document.querySelector('.button_inner').style.backgroundColor = 'pink':
         document.querySelector('.button_inner').style.backgroundColor = 'red';
 })
+
