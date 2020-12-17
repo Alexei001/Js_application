@@ -1,0 +1,128 @@
+/* font-family: 'Lobster', cursive; 
+font-family: 'Dancing Script', cursive;
+font-family: 'Varela Round', sans-serif;*/
+
+body {
+    margin: 0;
+    background-color: #75ecb5;
+    height: 100vh;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.input {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.input_inner {
+    min-width: 700px;
+    text-align: center;
+    background-color: #479c759f;
+    border-radius: 20px;
+}
+
+.content_title {
+    padding: 20px;
+}
+
+.content_input {
+    padding: 0 0 20px 0;
+    width: 100%;
+}
+
+.input_text_title {
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+
+.content_input textarea {
+    width: 90%;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.content_input_checkbox {
+    width: 90%;
+    margin: 0 auto;
+    text-align: left;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: lowercase;
+}
+.content_button button {
+    width: 90%;
+    color: black;
+    background-color: #09442879;
+}
+
+.content_button button:hover {
+    color: #ffffff;
+    background-color: #188f57f3;
+}
+
+.content_history {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+.history_last_message_delivery{
+    width: 100%;
+    text-align: left;
+}
+.history_last_message_delivery h3{
+text-transform: capitalize;
+font-size: 20px;
+font-weight:bold ;
+}
+
+.history_last_message_delivery p{
+    width: 100%;
+    margin: 10px 0;
+    background-color: #a0f0cbbd;
+    border-radius: 5px;
+    padding:10px;
+}
+.history_item a{
+    text-decoration: none;
+    color: black;
+    background-color: #09442879;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.history_item a:hover{
+    color: #ffffff;
+    background-color: #188f57f3;
+    border:2px solid black;
+    
+}
+.text_history{
+    display:none;
+    margin-top: 10px;
+    
+}
+.text_history ul{
+    margin: 0;
+}
+.footer {
+    padding: 10px 0;
+    background-color: red;
+    width: 100%;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer_text p{
+    margin: 0;
+}
+.footer_follow a img{
+    width: 30px;
+    height: auto;
+}
